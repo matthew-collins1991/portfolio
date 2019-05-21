@@ -6,7 +6,6 @@
     font-size: 22pt;
     color: darkgrey;
     padding-bottom: 5px;
-    margin: 20px, 0px, 20px, 0px;
     text-align: center;
     border-bottom: 2px solid #37c8c8;
     box-sizing: border-box;
@@ -15,7 +14,7 @@
 
 .title-div{
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     justify-content: center;
 
 }
@@ -30,5 +29,6 @@
     margin-right: 10%;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
 }
 
