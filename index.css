@@ -12,11 +12,22 @@
 
 }
 
-.title-div{
+.projects-title-div{
     display: flex;
     padding-bottom: 50px;
     justify-content: center;
+}
 
+.contact-title-div{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.about-title-div{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
 }
 
 .sub-header{
@@ -25,10 +36,24 @@
 
 #about-me{
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+}
+
+.header-background{
+    background-color: lightgray; 
+}
+
+.about-background{
+    background-color: lightgoldenrodyellow; 
+}
+
+.projects-background{
+    background-color: lightpink; 
+}
+
+.contact-background{
+    background-color: lightcyan; 
 }
 

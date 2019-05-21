@@ -39,6 +39,7 @@ const projectCards = (projects) => {
         `
         projectCardDiv.append(projectDiv)
     })
+    
 }
 
 const init = () => {
