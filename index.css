@@ -12,6 +12,12 @@
 
 }
 
+#header{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
 .projects-title-div{
     display: flex;
     padding-bottom: 50px;
