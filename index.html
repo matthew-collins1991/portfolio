@@ -101,33 +101,31 @@
           <h1 id="title">Contact</h1>
         </div>
         <div class="ui card centered" id="about-me">
-          <div id="contact">
-            <div id="contact-form">
+          <div id="contact" >
+            <div id="contact-form" >
+            <div class="contact-details">
               <h3>Contact me via email or phone:</h3>
-              <p>Email: matt@designmc.co.uk</p>
-              <p>Phone: +44 (0)7814945806</p>
+              <p class='email'>Email: matt@designmc.co.uk</p>
+              <p class='phone'>Phone: +44 (0)7814945806</p>
+            
               <h3>Or fill out the following form:</h3>
-
-              <form class="ui form">
+            </div>
+              <form class="ui form" action="mailto:matt@designmc.co.uk" method="post" enctype="text/plain">
                 <div class="field">
-                  <label>First Name</label>
-                  <input
-                    type="text"
-                    name="first-name"
-                    placeholder="First Name"
-                  />
+                        <label>First Name</label>
+                        <input type="text" name="first-name" placeholder="First Name">
                 </div>
                 <div class="field">
-                  <label>Last Name</label>
-                  <input type="text" name="last-name" placeholder="Last Name" />
-                </div>
-                <div class="field">
-                  <div class="ui checkbox">
-                    <input type="checkbox" tabindex="0" class="hidden" />
-                    <label>I agree to the Terms and Conditions</label>
-                  </div>
-                </div>
-                <button class="ui button" type="submit">Submit</button>
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="Email">
+                      </div>
+                      <div class="field">
+                            <label>Message...</label>
+                            <textarea></textarea>
+                    </div>
+                <p>
+                        <button class="ui button" type="submit">Submit</button>
+                </p>
               </form>
             </div>
           </div>

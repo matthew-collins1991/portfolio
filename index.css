@@ -57,21 +57,13 @@
     padding-top: 20px;
 }
 
-.header-background{
-    background-color: lightgray; 
-}
-
-.about-background{
-    background-color: lightgoldenrodyellow; 
-}
-
-.projects-background{
-    background-color: lightpink; 
-}
-
-.contact-background{
-    background-color: lightcyan; 
-}
+body {
+    background: lightgrey;
+  }
+  
+  footer {
+    background-size: cover;
+  }
 
 #avatar{
     width: 100%;
@@ -85,6 +77,22 @@
  align-items: center;
  margin-bottom: 20px;
 }
+
+.contact-details{
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+p[class='email']{
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+p[class='phone']{
+    padding-bottom: 5px;
+}
+
 
 p{
     font-weight: 400;
