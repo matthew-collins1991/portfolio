@@ -63,3 +63,9 @@
     background-color: lightcyan; 
 }
 
+#avatar{
+    width: 100%;
+    max-width: 700px;
+    border-radius: 50%;
+    border: 2px solid #37c8c8;  
+}
