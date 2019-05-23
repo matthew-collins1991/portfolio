@@ -78,10 +78,23 @@ body {
  margin-bottom: 20px;
 }
 
+
 .contact-details{
     display: block;
     text-align: center;
     padding-bottom: 30px;
+}
+
+.icon{
+    max-width: 40px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -50px;
 }
 
 p[class='email']{
