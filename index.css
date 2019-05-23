@@ -12,6 +12,16 @@
 
 }
 
+.inner-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    color: darkgrey;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #37c8c8;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
 #header{
     display: grid;
     justify-content: center;
@@ -65,7 +75,22 @@
 
 #avatar{
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     border-radius: 50%;
     border: 2px solid #37c8c8;  
+}
+
+#img-div{
+ display: grid;
+ align-items: center;
+ margin-bottom: 20px;
+}
+
+p{
+    font-weight: 400;
+    line-height: 24px !important;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0 0 16px;
+    padding-bottom: 40px;
 }
