@@ -48,6 +48,7 @@
 
 .sub-header{
     color: blue;
+    padding-bottom: 50px;
 }
 
 #about-me{
@@ -58,7 +59,8 @@
 }
 
 body {
-    background: lightgrey;
+    background: lightgrey !important;
+    font-family: 'Roboto', sans-serif;
   }
   
   footer {

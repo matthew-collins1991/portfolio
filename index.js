@@ -11,14 +11,16 @@ const projectCardDiv = document.querySelector('#project-cards')
 const projectCards = (projects) => {
 
     projects.map(project => {
-        const projectDiv = document.createElement('div')
-        projectDiv.className ="card"
-        projectDiv.innerHTML =
-        `
-
+        const projectLink = document.createElement('a')
+        projectLink.setAttribute('href', project.url);
+        projectLink.setAttribute('target', '_blank');
+        projectLink.setAttribute('rel', 'noreferrer noopener');
+        projectLink.setAttribute('class', 'ui raised card');
+        projectLink.innerHTML = 
+            `
                 <div class="image">
-                    <img src="./${project.image}">
-                </div>
+            <img src="./${project.image}">
+            </div>
             <div class="content">
                 <div class="header">
                     ${project.name}
@@ -37,7 +39,8 @@ const projectCards = (projects) => {
             </div>
 
         `
-        projectCardDiv.append(projectDiv)
+
+        projectCardDiv.append(projectLink)
     })
     
 }
