@@ -88,9 +88,19 @@ body {
 
 .tech-icon {
     margin: auto 3px;
-    height: 2.5em;
+    height: 3em;
+  }
+
+  .tech-icon-small {
+    margin: auto 3px;
+    height: 2em;
+    justify-content: center
   }
   
+  .centered {
+      display: flex;
+      justify-content: center;
+  }
 
   .tech-icon-container {
     margin: 0.5em 0;
@@ -107,13 +117,13 @@ body {
     justify-content: left;
     font-family: "Helvetica","Arial",sans-serif;
     font-weight: 400;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
 
 #avatar{
     width: 100%;
-    max-width: 600px;
+    max-width: 300px;
     border-radius: 50%;
     border: 2px solid #FFB545;  
 }
@@ -122,6 +132,12 @@ body {
  display: grid;
  align-items: center;
  margin-bottom: 20px;
+ justify-content: center;
+}
+
+#thumbnail{
+    object-fit: cover;
+    height: 160px;
 }
 
 

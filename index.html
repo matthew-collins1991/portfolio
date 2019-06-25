@@ -88,6 +88,9 @@
               <li id="sqlite-icon" class="tech-icon">
                 <img class="tech-icon" src="public/img/sql.svg" alt="SQL">
               </li>
+              <li id="ruby-icon" class="tech-icon">
+                <img class="tech-icon" src="public/img/ruby.svg" alt="Ruby">
+              </li>
             </ul>
             </div>
           </div>
@@ -132,23 +135,24 @@
             
               <h3>Or fill out the following form:</h3>
             </div>
-              <form class="ui form" action="mailto:matt@designmc.co.uk" method="post" enctype="text/plain">
+              <form class="ui form" action="{{ SERVICE URL }}" method="POST">
                 <div class="field">
-                        <label>First Name</label>
-                        <input type="text" name="first-name" placeholder="First Name">
+                        <label>Full Name</label>
+                        <input type="text" name="Full-name" placeholder="Full Name" required>
                 </div>
                 <div class="field">
                         <label>Email</label>
-                        <input type="email" name="email" placeholder="Email">
+                        <input type="email" name="email" placeholder="Email" required>
                       </div>
                       <div class="field">
                             <label>Message...</label>
-                            <textarea></textarea>
+                            <textarea name="message" required></textarea>
                     </div>
                 <p>
                         <button class="ui button" type="submit">Submit</button>
                 </p>
               </form>
+              <p id="js-form-response"></p>
             </div>
           </div>
         </div>
